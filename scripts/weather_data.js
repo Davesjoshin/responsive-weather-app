@@ -47,13 +47,13 @@ jQuery(document).ready(function($) {
 function getStylesheet() {
   var currentTime = new Date().getHours();
     if (0 <= currentTime&&currentTime < 5) {
-       document.write("<link rel='stylesheet' href='wp-includes/css/night.css' type='text/css'>");
+       document.write("<link rel='stylesheet' href='wp-includes/style/night.css' type='text/css'>");
     }
     if (5 <= currentTime&&currentTime < 18) {
-       document.write("<link rel='stylesheet' href='wp-includes/css/day.css' type='text/css'>");
+       document.write("<link rel='stylesheet' href='wp-includes/style/day.css' type='text/css'>");
     }
     if (18 <= currentTime&&currentTime <= 24) {
-       document.write("<link rel='stylesheet' href='wp-includes/css/night.css' type='text/css'>");
+       document.write("<link rel='stylesheet' href='wp-includes/style/night.css' type='text/css'>");
     }
  }
  //call function

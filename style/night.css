@@ -1,0 +1,55 @@
+body {
+  font-family: 'Raleway', sans-serif;
+  background-color: #616161;
+}
+
+#weather_card {
+  margin: 25px 5px 0px 5px;
+}
+
+.weather_info {
+  font-size: 1.75rem;
+  font-weight: 600;
+  margin: -5px 0px -5px 0px;
+  color: #FFCDD2;
+}
+
+#city {
+  font-size: 3rem;
+  font-weight: bold;
+  margin: 0px 0px 15px 0px;
+  color: #424242;
+}
+
+#city_card {
+  background-color: #FFCDD2;
+  position: relative;
+  left: -40px;
+  top: -25px;
+  padding: 15px 0px 0px 15px;
+}
+
+#weather_gif {
+  position: relative;
+  left: -10px;
+}
+
+.weather_report {
+  padding: 50px 25px 50px 35px;
+  color: #FFF176;
+  background-color: #424242;
+  height: 325px;
+}
+
+#map {
+  background-color: #424242;
+  height: 325px;
+}
+
+.week_card {
+  outline: 1px solid #FFCDD2;
+  background-color: #424242;
+  margin: 15px 15px 15px 15px;
+  padding: 10px 0px 0px 0px;
+  height: 325px;
+}

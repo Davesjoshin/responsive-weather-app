@@ -1,0 +1,85 @@
+body {
+  font-family: 'Raleway', sans-serif;
+  background-color: #ffffff;
+}
+
+#weather_card {
+  margin: 25px 0px 25px 0px;
+}
+
+.weather_info {
+  font-size: 1.75rem;
+  font-weight: 100;
+  margin: -5px 0px -5px 0px;
+  color: #2196F3;
+}
+
+#city {
+  font-size: 3rem;
+  font-weight: bold;
+  margin: 0px 0px 0px 0px;
+  color: #ffffff;
+}
+
+#city_card {
+  background-color: #2196F3;
+  position: relative;
+  left: -40px;
+  top: -25px;
+  padding: 15px 0px 0px 25px;
+}
+
+#weather_gif {
+  position: relative;
+  left: -10px;
+}
+
+.weather_report {
+  padding: 50px 25px 50px 35px;
+  color: #FFF176;
+  background-color: #ffffff;
+  height: 325px;
+}
+
+#map {
+  background-color: #ffffff;
+  outline: 1px solid red;
+  /* height: 325px; */
+  background-color: #2196F3;
+  position: relative;
+  left: -40px;
+  top: -25px;
+  padding: 15px 0px 0px 25px;
+}
+
+#weather_gif {
+  position: relative;
+  left: -10px;
+}
+
+.weather_report {
+  padding: 50px 25px 50px 35px;
+  color: #FFF176;
+  background-color: #ffffff;
+  height: 325px;
+}
+
+#map {
+  background-color: #ffffff;
+  outline: 1px solid red;
+  /* height: 325px; */
+}
+
+.shadow {
+  -moz-box-shadow:    3px 3px 5px 6px #ccc;
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+  box-shadow:         3px 3px 5px 6px #ccc;
+}
+
+.week_card {
+  outline: 1px solid black;
+  /* background-color: yellow; */
+  margin: 15px 15px 15px 15px;
+  padding: 10px 0px 0px 0px;
+  height: 325px;
+}
