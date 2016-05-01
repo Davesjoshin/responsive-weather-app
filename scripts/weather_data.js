@@ -28,10 +28,10 @@ jQuery(document).ready(function($) {
 
   //output to DOM
   $( "#city" ).html(location + " ");
-  $( "#time" ).html( document.createTextNode("Time: " + time.getHours() + ":" + minutes + ":" + time.getSeconds()));
-  $( "#weather" ).html( document.createTextNode("Weather: " + weather + "  ") );
-  $( "#temp" ).html( document.createTextNode("Temp: " + temp_f + " F") );
-  $( "#wind" ).html( document.createTextNode("Wind: " + wind + " MPH") );
+  $( "#time" ).html( document.createTextNode(time.getHours() + ":" + minutes + ":" + time.getSeconds()));
+  $( "#weather" ).html( document.createTextNode(weather + "  ") );
+  $( "#temp" ).html( document.createTextNode(temp_f + " F") );
+  $( "#wind" ).html( document.createTextNode(wind + " MPH") );
   $( "#city" ).append('<img id="weather_gif" src="' + weather_gif + '"/>');
   $("#tomorrow").html(tomorrow);
   $("#twoDays").html(twoDaysOut);
@@ -47,13 +47,13 @@ jQuery(document).ready(function($) {
 function getStylesheet() {
   var currentTime = new Date().getHours();
     if (0 <= currentTime&&currentTime < 5) {
-       document.write("<link rel='stylesheet' href='style/night.css' type='text/css'>");
-    }
-    if (5 <= currentTime&&currentTime < 18) {
        document.write("<link rel='stylesheet' href='style/day.css' type='text/css'>");
     }
-    if (18 <= currentTime&&currentTime <= 24) {
+    if (5 <= currentTime&&currentTime < 18) {
        document.write("<link rel='stylesheet' href='style/night.css' type='text/css'>");
+    }
+    if (18 <= currentTime&&currentTime <= 24) {
+       document.write("<link rel='stylesheet' href='style/day.css' type='text/css'>");
     }
  }
  //call function
