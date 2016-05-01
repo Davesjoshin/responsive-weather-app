@@ -25,51 +25,25 @@
 
 <body>
   <!-- Include all the JS files, combine these ASAP-->
-  <script src="wp-includes/scripts/location.js"></script>
-  <script src="wp-includes/scripts/weather_data.js"></script>
-  <script src="wp-includes/scripts/weather_data_weekly.js"></script>
+  <script src="scripts/location.js"></script>
+  <script src="scripts/weather_data.js"></script>
 
   <div class="container">
     <div class="row shadow" id="weather_card">
-      <div class="col-md-6 weather_report">
+      <div class="col-md-12 weather_report">
+
         <div class="shadow" id="city_card">
           <div id="city" class="weather_info"></div><br/>
         </div>
+
         <div id="time" class="weather_info"></div><br/>
         <div id="weather" class="weather_info"></div><br/>
         <div id="temp" class="weather_info"></div><br/>
         <div id="wind" class="weather_info"></div><br/>
-      </div>
 
-      <div class="col-md-6" id="map">
-        <img class="img-responsive"src="http://maps.googleapis.com/maps/api/staticmap?center=Kansas City,+MO&zoom=11&scale=false&size=540x325&maptype=terrain$
-      </div>
-    </div>
-    <div class="row shadow" id="weather_card">
-           <div class="col-md-2 week_card">
-             <div id="tomorrow" class="weather_info"></div></br>
-           </div>
-           <div class="col-md-2 week_card">
-             <div id="twoDays" class="weather_info"></div></br>
-           </div>
-           <div class="col-md-2 week_card">
-             <div id="threeDays" class="weather_info"></div></br>
-           </div>
-           <div class="col-md-2 week_card">
-             <div id="fourDays" class="weather_info"></div></br>
-           </div>
-           <div class="col-md-2 week_card">
-             <div id="fiveDays" class="weather_info"></div></br>
-           </div>
-       </div>
-
-       <div class="row">
-         <div class="col-md-6">
-           <button type="button" class="btn btn-default btn-lg" onclick="geoFindMe()">Show my location</button>
-           <div id="out"></div>
-         </div>
       </div>
 
     </div>
+  </div>
 </body>
 </html>
