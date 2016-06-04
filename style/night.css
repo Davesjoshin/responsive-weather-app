@@ -15,7 +15,7 @@ h3 {
 }
 
 #weather_card {
-  margin: -375px 0px 25px 0px;
+  margin: -300px 0px 25px 0px;
 }
 
 .weather_info {
@@ -65,6 +65,18 @@ h3 {
 }
 
 .hero-image {
-  background: url(../imgs/night.jpg) no-repeat center center fixed;
+  background: url(../imgs/night.jpg) no-repeat top center fixed;
   height: 450px;
+}
+
+/* Styles for Mobile */
+@media (max-width: 800px) {
+
+  #weather_card {
+    margin: -750px 0px 25px 0px;
+  }
+
+  .hero-image {
+    height: 800px;
+  }
 }

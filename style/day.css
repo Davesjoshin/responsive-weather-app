@@ -16,7 +16,7 @@ h3 {
 }
 
 #weather_card {
-  margin: -375px 0px 25px 0px;
+  margin: -300px 0px 25px 0px;
 }
 
 .weather_info {
@@ -76,7 +76,7 @@ h3 {
 }
 
 .hero-image {
-  background: url(../imgs/day.jpg) no-repeat center center fixed;
+  background: url(../imgs/day.jpg) no-repeat top center fixed;
   height: 450px;
 }
 
