@@ -1,6 +1,11 @@
+html {
+  height: 100%;
+}
+
 body {
   font-family: 'Raleway', sans-serif;
   background-color: #ffffff;
+  height: 100%;
 }
 
 h3 {
@@ -12,7 +17,6 @@ h3 {
 
 #weather_card {
   margin: -375px 0px 25px 0px;
-
 }
 
 .weather_info {
@@ -45,7 +49,7 @@ h3 {
 .weather_report {
   padding: 50px 25px 50px 35px;
   color: #FFF176;
-  background-color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.75);
 }
 
 #weather_gif {
@@ -56,7 +60,6 @@ h3 {
 .weather_report {
   padding: 50px 25px 50px 35px;
   color: #FFF176;
-  background-color: #ffffff;
 }
 
 .shadow {
@@ -73,6 +76,6 @@ h3 {
 }
 
 .hero-image {
-  background: url(../imgs/day.jpg);
+  background: url(../imgs/day.jpg) no-repeat center center fixed;
   height: 450px;
 }
