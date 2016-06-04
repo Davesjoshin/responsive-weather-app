@@ -82,7 +82,7 @@ h3 {
 
 
 /* Styles for Mobile */
-@media (max-width: 600px) {
+@media (max-width: 800px) {
 
   #weather_card {
     margin: -750px 0px 25px 0px;
