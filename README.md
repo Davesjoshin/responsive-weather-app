@@ -4,7 +4,7 @@ Mobile weather app that uses the Weather Underground API and displays weather co
 ### Included Features
 * Responsive design (works on mobile, tablet and desktop)
 * Displays time, condition, temperature and wind speed.
-* changes to dark theme when it's dark outside.
+* Changes to dark theme when it's dark outside.
 
 ### Night Theme
 ![A screenshot of the weather app during the night](http://yetichute.com/weather/imgs/weather-night-preview.png)
